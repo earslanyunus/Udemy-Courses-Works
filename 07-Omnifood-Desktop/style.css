@@ -568,7 +568,7 @@ color: #cf711f;
 }
 #footer-socialmedia{
     gap: 2rem;
-    margin-top: 1.6rem;
+    
 }
 .footer-text{
     font-size: 1.4rem;
@@ -580,4 +580,21 @@ color: #cf711f;
 }
 .footer-text-second{
     font-size: 1.6rem;
+}
+.footer-link:link,
+.footer-link:visited{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #555;
+}
+.footer-link:hover,
+.footer-link:active{
+    color: #333;
+}
+.footer-link-box{
+    gap: 2rem;
+}
+.footer-grid-box{
+    gap: 4rem;
+    padding: 0rem 0rem 10rem 0rem !important;
 }
