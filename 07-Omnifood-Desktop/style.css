@@ -598,3 +598,11 @@ color: #cf711f;
     gap: 4rem;
     padding: 0rem 0rem 10rem 0rem !important;
 }
+.comments-box{
+    column-gap: 2rem;
+}
+
+.footer-section{
+  border-top: 1px solid rgba(0, 0, 0, 0.075);
+  padding-top: 10rem;
+}
