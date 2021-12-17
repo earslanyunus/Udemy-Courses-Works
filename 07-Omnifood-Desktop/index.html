@@ -23,6 +23,7 @@
                 </ul>
             </nav>
             <button class="open-nav-button display-none"><ion-icon  name="menu-outline"></ion-icon></button>
+            <button class="close-nav-button display-none"><ion-icon name="close-outline"></ion-icon></button>
         </div>
     </header>
     <section class="hero-section">
@@ -32,7 +33,7 @@
                 <p class="hero-description">The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
                 </p>
                 <div class="hero-links">
-                    <a href="" class="btn btn-primary mr2-4">Start eating well</a>
+                    <a href="" class="btn btn-primary" id="starteating">Start eating well</a>
                     <a href="" class="btn btn-outline">Learn more ↓</a>
                 </div>
                 <div class="hero-customers-box">
@@ -85,8 +86,8 @@
                 <div class="app-circle circle-small"></div>
                 <div class="app-circle circle-big"></div>
             </div>
-            <div class="app-textbox">
-                <p class="app-number">02</p>
+            <div class="app-textbox" id="two">
+                <p class="app-number" >02</p>
                 <h3 class="app-heading mb-2-4">Approve your weekly meal plan</h3>
                 <p class="app-description">Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
             </div>
@@ -245,7 +246,8 @@
                 </div>
             </div>
           
-            <div class="pricing-tab pricing-tab-fill">
+            <div class="pricing-tab position-relative pricing-tab-fill">
+                <div class="best-tag">BEST VALUE</div>
                 <div class="text-center">
                 <p class="pricing-head">STARTER</p>
                 <p class="pricing-price">$399</p>
@@ -265,7 +267,7 @@
             </div>
             
         </div>
-        <p class="pricing-tab-desc mb-9-6">Prices include all applicable taxes. You can cancel at any time. Both plans include the following:</p>
+        <p class="pricing-tab-desc mb-9-6 mt-6-4">Prices include all applicable taxes. You can cancel at any time. Both plans include the following:</p>
         <div class="container pricing-avantages grid four-columns container">
             <div class="avantage-card">
                 <ion-icon class="avantage-icon mb-3-2" name="infinite-outline"></ion-icon>
@@ -273,17 +275,17 @@
                 <p class="avantage-subhead">Our cooks only use local, fresh, and organic products to prepare your meals.</p>
             </div>
             <div class="avantage-card">
-                <ion-icon class="avantage-icon mb-3-2" name="infinite-outline"></ion-icon>
+                <ion-icon class="avantage-icon mb-3-2" name="nutrition-outline"></ion-icon>
                 <p class="avantage-head mb-2-4">No waste</p>
                 <p class="avantage-subhead">All our partners only use reusable containers to package all your meals.</p>
             </div>
             <div class="avantage-card">
-                <ion-icon class="avantage-icon mb-3-2" name="infinite-outline"></ion-icon>
+                <ion-icon class="avantage-icon mb-3-2" name="leaf-outline"></ion-icon>
                 <p class="avantage-head mb-2-4">Pause anytime</p>
                 <p class="avantage-subhead">Going on vacation? Just pause your subscription, and we refund unused days.</p>
             </div>
             <div class="avantage-card">
-                <ion-icon class="avantage-icon mb-3-2" name="infinite-outline"></ion-icon>
+                <ion-icon class="avantage-icon mb-3-2" name="pause-outline"></ion-icon>
                 <p class="avantage-head mb-2-4">Never cook again!</p>
                 <p class="avantage-subhead">Our subscriptions cover 365 days per year, even including major holidays.</p>
             </div>

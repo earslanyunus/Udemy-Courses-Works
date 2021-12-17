@@ -98,8 +98,11 @@
     display: inline-block;
 }
 .display-none{
-    display: none;
+    display: none ;
 }
 body{
     overflow-x: hidden;
+}
+.disp-none{
+    display: none !important;
 }
