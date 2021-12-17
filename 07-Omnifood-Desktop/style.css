@@ -606,3 +606,10 @@ color: #cf711f;
   border-top: 1px solid rgba(0, 0, 0, 0.075);
   padding-top: 10rem;
 }
+.open-nav-button{
+    border: none;
+    background-color: transparent;
+}
+.open-nav-button ion-icon{
+    font-size: 5rem;
+}
