@@ -4,28 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="content/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="content/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="content/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="content/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="content/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="content/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="content/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="content/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="content/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="content/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="content/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="content/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="content/img/icons/favicon-16x16.png">
+<link rel="manifest" href="content/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="content/img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!">
+<meta name="keywords" content="health,food,healthlyfood,meals">
+    <title>Omnifood</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
 </head>
 <body>
+    <section class="head-box">
     <header class="head">
         <div class="header-box">
             <img class="header-logo" src="content/img/omnifood-logo.png" alt="">
             <nav class="navigation nav-open">
                 <ul class="header-nav">
-                    <li><a href="#" class="nav-item">How it works</a></li>
-                    <li><a href="#" class="nav-item">Meals</a></li>
-                    <li><a href="#" class="nav-item">Testimonials</a></li>
-                    <li><a href="#" class="nav-item">Pricing</a></li>
-                    <li><a href="#" class="nav-item nav-cta">Try for free</a></li>
+                    <li><a href="#how" class="nav-item">How it works</a></li>
+                    <li><a href="#meal" class="nav-item">Meals</a></li>
+                    <li><a href="#users" class="nav-item">Testimonials</a></li>
+                    <li><a href="#price" class="nav-item">Pricing</a></li>
+                    <li><a href="#regist" class="nav-item nav-cta">Try for free</a></li>
                 </ul>
             </nav>
             <button class="open-nav-button display-none"><ion-icon  name="menu-outline"></ion-icon></button>
             <button class="close-nav-button display-none"><ion-icon name="close-outline"></ion-icon></button>
         </div>
     </header>
+    </section>
     <section class="hero-section">
         <div class="hero-box">
             <div class="hero-text-box">
@@ -50,11 +74,15 @@
             </div>
            
             <div class="hero-img-box">
-                <img class="hero-img" src="content/img/hero.png" alt="">
+                <picture class="hero-img">
+                    <source srcset="content/img/hero.webp">
+                    <img class="hero-img" src="content/img/hero-optimize.png" alt="">
+                </picture>
+                <!-- <img class="hero-img" src="content/img/hero.png" alt=""> -->
             </div>
         </div>
     </section>
-    <section class="featured-in container mt-3-2 mb-9-6">
+    <section class="featured-in container mt-3-2 mb-9-6" >
         <p class="feature-head mb-3-2">AS FEATURED IN</p>
         <div class="feature-companies flex w-100 justify-content-center">
             <img class="feature-img" src="content/img/logos/business-insider.png" alt="">
@@ -65,7 +93,7 @@
 
         </div>
     </section>
-    <section class="how-it-section mb-9-6">
+    <section class="how-it-section mb-9-6" id="how">
         <div class="app-head-box container mb-8">
             <p class="app-head-text">HOW IT WORKS</p>
             <h2 class="app-head-desc">Your daily dose of health in 3 simple steps</h2>
@@ -77,12 +105,18 @@
                 <p class="app-description">Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!</p>
             </div>
             <div class="app-imgbox position-relative flex align-items-center justify-content-center">
-                <img src="content/img/app/app-screen-1.png" class="app-imgs " alt="">
+                <picture class="app-imgs" >
+                    <source srcset="content/img/app/app-screen-1.webp">
+                <img src="content/img/app/app-screen-1-optimize.png" class="w-100 " alt="">
+                </picture>
                 <div class="app-circle circle-small"></div>
                 <div class="app-circle circle-big"></div>
             </div>
             <div class="app-imgbox position-relative flex align-items-center justify-content-center">
-                <img src="content/img/app/app-screen-2.png" class="app-imgs" alt="app resimi">
+                <picture class="app-imgs" >
+                    <source srcset="content/img/app/app-screen-2.webp">
+                <img src="content/img/app/app-screen-2.png" class="w-100 " alt="">
+                </picture>
                 <div class="app-circle circle-small"></div>
                 <div class="app-circle circle-big"></div>
             </div>
@@ -97,13 +131,16 @@
                 <p class="app-description">Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!</p>
             </div>
             <div class="app-imgbox position-relative flex align-items-center justify-content-center">
-                <img src="content/img/app/app-screen-3.png" class="app-imgs" alt="">
+                <picture class="app-imgs" >
+                    <source srcset="content/img/app/app-screen-3.webp">
+                <img src="content/img/app/app-screen-3.png" class="w-100 " alt="">
+                </picture>
                 <div class="app-circle circle-small"></div>
                 <div class="app-circle circle-big"></div>
             </div>
         </div>
     </section>
-    <section class="meals-section container">
+    <section class="meals-section container" id="meal">
         <div class="meal-section-head mb-9-6">
             <p class="meal-small-head">MEALS</p>
             <h2 class="meal-big-head">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -179,7 +216,7 @@
         <a href="" class="meals-bottom-link">See all recipes →</a>
         </div>
     </section>
-    <section class="mb-9-6 gallery-section align-items-center grid two-columns">
+    <section class="mb-9-6 gallery-section align-items-center grid two-columns" id="users">
         <div class="comments-section">
             <p class="meal-small-head mb-2-4 align-items-center">TESTIMONIALS</p>
             <h2 class="meal-big-head">Once you try it, you can't go back
@@ -222,7 +259,7 @@
            <figure class="comment-img-outside"><img src="content/img/gallery/gallery-12.jpg" alt=""></figure>
         </div>
     </section>
-    <section class="pricing-section mb-9-6">
+    <section class="pricing-section mb-9-6" id="price">
         <div class="pricing-head-texts container mb-4-8">
             <p class="meal-small-head mb-2-4 align-items-center">PRICING</p>
             <h2 class="meal-big-head">Eating well without breaking the bank</h2>
@@ -292,7 +329,7 @@
             
         </div>
     </section>
-    <section class="register-form-section container mb-9-6">
+    <section class="register-form-section container mb-9-6" id="regist">
         <div class="w-100 grid register-grid">
             <div class="register-text">
                 <p class="register-head mb-2-4">Get your first meal for free!</p>
@@ -363,7 +400,7 @@
             <div class="footer-text-box flex flexcol">
                 <p class="footer-head">Resources</p>
                 <div class="flex flexcol footer-link-box">
-                    <a href="" class="footer-link mt-3-2">Recipe directory</a>
+                    <a href="#" class="footer-link mt-3-2">Recipe directory</a>
                     <a href="" class="footer-link">Help center</a>
                     <a href="" class="footer-link">Privacy & terms</a>
                 </div>
