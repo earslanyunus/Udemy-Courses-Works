@@ -1,2 +1,2 @@
-# Udemy-Ders-Icerikler
-Udemy Tutorials Assignment and Personal Works
+# Udemy Works and Projects
+The projects you have seen here have been created within the scope of udemy trainings.
